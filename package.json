@@ -22,7 +22,8 @@
     "lint:check": "eslint --debug src/",
     "lint:fix": "eslint --debug src/ --fix",
     "format:check": "prettier --check \"src/**/*.{js,jsx,css,scss,md,json}\"",
-    "format:fix": "prettier --write \"src/**/*.{js,jsx,css,scss,md,json}\""
+    "format:fix": "prettier --write \"src/**/*.{js,jsx,css,scss,md,json}\"",
+    "heroku-postbuild": "npm run build"
   },
   "husky": {
     "hooks": {
